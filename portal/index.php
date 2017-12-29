@@ -1,0 +1,1 @@
+<?php  $app_path = dirname(dirname(__FILE__)).'/_webContent/apps/'.basename(dirname(__FILE__)).'/index.php'; if(!file_exists($app_path)) die('Sorry, this application does not load correctly:'.$app_path); require_once $app_path;

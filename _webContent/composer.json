@@ -1,0 +1,28 @@
+{
+    "require":{
+        "codeigniter/framework": "^3.0",
+        "phpoffice/phpexcel": "1.8.0",
+        "mrclay/minify": "2.2.1",
+        "gregwar/captcha": "^1.1",
+        "box/spout": "^2.7",
+        "dynamotor-ci/ci-package": "3.1.0"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "dynamotor-ci/ci-package",
+                "version": "3.1.0",
+                "dist": {
+                    "url": "https://bitbucket.org/dynamotor/ci-package/get/v3.1.0.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://bitbucket.org/dynamotor/ci-package",
+                    "type": "git",
+                    "reference": "master-ver3.0"
+                }
+            }
+        }
+    ]
+}
