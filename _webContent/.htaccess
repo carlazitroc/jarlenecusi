@@ -1,2 +1,0 @@
-# Apache setting. No access from all user. Suggested to protect your application's core part.
-Deny from all
